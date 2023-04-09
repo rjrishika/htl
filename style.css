@@ -292,7 +292,7 @@ span{
 .help-support{
     padding-left: 40px;
     width: auto;
-    height: 200vh;
+    height: 170vh;
     background-color: #FFF0F2;
 }
 .help-heading{
@@ -473,4 +473,89 @@ border-radius: 23px;
     top: 15px;
     left: 1000px;
    
+}
+.ngo-list{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 73px;
+display: flex;
+align-items: center;
+
+color: #1F1F1F;
+}
+.meet-our-doctors{
+    width: 599px;
+height: 78px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 78px;
+display: flex;
+align-items: center;
+margin-left: 70px;
+margin-top: 12px;
+
+color: #1F1F1F;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}  
+
+.red-colour{
+    color: #D70908;
+}
+.doc-cards{
+    padding-top: 30px;
+}
+.card {
+    height: 349px;
+    width: 300px;
+    background: rgba(244, 175, 177, 0.5);
+    border: 0.8px solid #D70908;
+    border-radius: 16px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .image{
+    margin-top: 16px;
+  }
+
+  .card-set{
+margin-top: 17px;
+margin-left: 110px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 52px;
+
+width: 1043px;
+height: 349px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.health-support{
+    padding-top: 50px;
+}
+.health-btn{
+    position: relative;
+    top: 320px;
+    right: 560px;
+width: 200.33px;
+height: 53px;
+background: #D70908;
+border: 2px solid #FFFFFF;
+border-radius: 4px;
+color: #fff;
+}
+.listed-doc{
+    padding-top: 40px;
 }
