@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.sign-up{
+    position: absolute;
+    width: 1400px;
+    height: 100vh;
+    overflow-x: hidden; 
+    background: #FFF0F2;
+    
+    
+}
+.lady{
+position: absolute;
+width: 590px;
+height: 90vh;
+padding: 30px 0px;
+
+/* background: url('./assests/sign.svg'); */
+
+}
+
+.vr-line{
+    position: absolute;
+width: 506px;
+height: 0px;
+left: 380px;
+top: 320px;
+
+border: 4px solid #BC3B3B;
+transform: rotate(90deg);
+}
+.sign-up-form{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: -70px;
+    top: 17%;
+}
+.heading{
+    position: absolute;
+width: 231px;
+height: 24px;
+top: -60px;
+
+font-family: 'Candara';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 24px;
+/* identical to box height, or 50% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #A80303;
+}
+.adhar-no{
+    font-family: 'Candara';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 100% */
+margin-bottom: 6px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+
+color: #B32121;
+}
+.num{
+    width: 350px;
+height: 35px;
+background: #FBD0D0;
+border-radius: 8px;
+margin-bottom: 15px;
+}
+.submit-adhar{
+    position: relative;
+width: 280px;
+height: 44px;
+right: 323px;
+top: 80px;
+background: #BC3B3B;
+border-radius: 8px;
+}
